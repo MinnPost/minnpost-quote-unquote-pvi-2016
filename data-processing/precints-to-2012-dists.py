@@ -39,3 +39,11 @@ with open('../data/2010_general_results_final.csv','r') as f:
                                     "house_tot": house_tot,
                                 }
                                )
+
+with open('2010-precincts-in-2012-districts.csv') as f:
+    #do stuff
+
+senate_districts = [str(n+1) for n in range(67)]
+
+house_districts = [str(n+1)+"A" for n in range(67)]
+house_districts += [str(n+1)+"B" for n in range(67)]
