@@ -23,7 +23,7 @@ with open('../data/2010_general_results_final.csv','r') as f:
         senate_gop = int(row['MNSENR'])
         senate_tot = int(row['MNSENTOT'])
 
-        house_dfl = int(row['MNSENDFL'])
+        house_dfl = int(row['MNLEGDFL'])
         house_gop = int(row['MNLEGR'])
         house_tot = int(row['MNLEGTOT'])
 
